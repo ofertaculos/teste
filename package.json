@@ -1,7 +1,7 @@
 {
   "name": "Ofertaculos",
   "homepage" : "https://www.ofertaculos.com.br/",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ofertáculos muito mais que ofertas!",
   "main": "main.js",
   "icon": "res/img/logo.png",
