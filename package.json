@@ -1,7 +1,7 @@
 {
   "name": "Ofertaculos",
   "homepage" : "https://www.ofertaculos.com.br/",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ofertáculos muito mais que ofertas!",
   "main": "main.js",
   "icon": "res/img/logo.png",
@@ -22,7 +22,8 @@
   "build": {
     "publish": [
       {
-        "provider": "github"
+        "provider": "github",
+        "token": "46e8041ce70a4fd1e0c5257a311d0caa405a10ad"
       }
     ],
     "appId": "com.ofertaculos",
