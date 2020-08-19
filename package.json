@@ -1,0 +1,33 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "appId": "com.example.ElectronAutoUpdate",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "electron ./main.js",
+    "build": "electron-builder build --win --publish never",
+  "deploy": "electron-builder build --win --publish always"
+  },
+  "publish":{
+    "provider": "github"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ofertaculos/teste.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ofertaculos/teste/issues"
+  },
+  "homepage": "https://github.com/ofertaculos/teste#readme",
+  "devDependencies": {
+    "electron": "^9.2.1",
+    "electron-builder": "^22.8.0"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.4"
+  }
+}
