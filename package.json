@@ -40,13 +40,11 @@
     "productName": "Ofertáculos",
     "target": "nsis",
     "nsis": {
-      "license": "LICENSE",
       "allowToChangeInstallationDirectory": true,
       "oneClick": false,
       "createStartMenuShortcut": true,
       "createDesktopShortcut": true,
       "shortcutName": "Ofertáculos",
-      "include": "build/installer.nsh",
       "perMachine" : true
     },
     "win": {
